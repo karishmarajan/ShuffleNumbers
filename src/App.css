@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.header {
+text-align: center;
+padding: 30px;
+font-size: 35px;
+border: 2px solid #BDB0B0;
+}
+.footer{
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 100px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.even-cell{
+  flex: 30%;
+  height: 100px;
+  justify-content: center;
+  background-color: #2BBEAD;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+.odd-cell{
+  flex: 30%;
+  height: 100px;
+  justify-content: center;
+  background-color: #00687C;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+.main-view {
+  width:50%;
+  height:50%;
+  justify-content:center;
+  padding-left:25%;
+  margin-top: 20px;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.btn-view{
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 16px;
+  border-width: 4px;
+  background-color:#2BBEAD ;
+  margin: 10px;
+  border-color: #00687C;
+  color:#014552 ;
+}
+.home-div {
+  background-color: bisque;
+}
+.link-style {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 250px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

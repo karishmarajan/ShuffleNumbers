@@ -27,9 +27,13 @@ class ShuffleClass extends Component {
             ))}
           </div>
         </div>
-        <div className='btn-div'>
-          <button className='btn-view' onClick={() => this.handleShuffle()}>Shuffle</button>
-          <button className='btn-view' onClick={() => this.handleSort()}>Sort</button>
+        <div className="btn-div">
+          <button className="btn-view" onClick={() => this.handleShuffle()}>
+            Shuffle
+          </button>
+          <button className="btn-view" onClick={() => this.handleSort()}>
+            Sort
+          </button>
         </div>
         <Footer />
       </div>

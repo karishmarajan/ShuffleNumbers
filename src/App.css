@@ -17,7 +17,12 @@ border: 2px solid #BDB0B0;
   margin: auto;
   text-align: center;
   justify-content: center;
-  padding: 100px;
+  position: fixed;
+  bottom: 16px;
+  width: 100%;
+}
+.footer-style{
+  text-align: center;
 }
 .flex-container {
   display: flex;
@@ -68,12 +73,12 @@ border: 2px solid #BDB0B0;
 }
 .home-div {
   background-color: bisque;
+  height: 100vh;
 }
 .link-style {
   display: flex;
   justify-content: center;
   padding-top: 70px;
-  padding-bottom: 250px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
